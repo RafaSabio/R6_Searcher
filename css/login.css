@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background: url(../images/backgroundLogin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+main{
+    align-items: center;
+}
+.boxlogin{
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 520px;
+    background: transparent;
+    border: solid 2px rgb(51, 50, 50);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px black;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 50% auto;
+}
+.boxlogin .lp_divlogo{
+    text-align: center;
+}
+.lp_divlogo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+.boxlogin h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: cursive, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.boxlogin .lp_divemail{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.lp_divemail input{
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+#user{
+    margin-left: 25px;
+}
+#user::placeholder{
+    color: white;
+    font-size: 20px;
+    margin-right: auto;
+    font-weight: normal;
+}
+.lp_divemail i{
+    position: absolute;
+    right: 70px;
+    top: 46.5%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.boxlogin .lp_divpassword{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.lp_divpassword input{
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 18px;
+    padding-left: 15px;
+    color: white;
+}
+#pass{
+    margin-left: 25px;
+}
+#pass::placeholder{
+    color: white;
+    font-size: 20px;
+    margin-right: auto;
+}
+.lp_divpassword i{
+    position: absolute;
+    right: 70px;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+#text_forgotpass{
+    color: white;
+    opacity: 85%;
+    text-decoration: none;
+}
+#text_forgotpass:hover{
+    opacity: 100%;
+    color: rgb(45, 45, 252);
+    text-decoration: underline;
+}
+
+.lp_remember_user{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    margin-right: 20px;
+}
+#logincheckbox{
+    cursor: pointer;
+    user-select: none;
+}
+#aregister{
+    color: white;
+    opacity: 85%;
+    text-decoration: none;
+}
+#aregister:hover{
+    opacity: 100%;
+    color: rgb(44, 44, 245);
+    text-decoration: underline;
+}
+.lp_remember_user label input{
+    accent-color: white;
+    margin-left: 20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.boxlogin .login_button{
+    width: 50%;
+    height: 45px;
+    background-color: rgb(197, 77, 77);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    margin: 30px 100px 0;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+.boxlogin .lp_register_account{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;     
+}
+#aregister{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 2px;
+}
